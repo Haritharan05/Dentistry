@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Shade dendistry</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="">Shade dendisrtry</a>
+        </div>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#contact">Contact us</a></li>
+        </ul>
+        <div class="menu">
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+    </div>
+    </nav>
+
+</body>
+<div class="service">
+    <h1>Our services</h1>
+    <ul>
+        <li>Root canal treatment</li>
+        <li>Wisdom tooth removal</li>
+        <li>Aligners</li>
+    </ul>
+</div>
+<div class="about">
+    <h1>About Us</h1>
+    <p>We are a team of experienced professional dentists with extensive experience with the latest trends and technologies in the dental industry.</p>
+</div>
+<div class="contact">
+    <h1>Contact Us</h1>
+    <p>Email: shadedentistry@gmail.com</p>
+    <p>Phone: +91xxxxxxxxxx</p>
+    <p>Address: 111,Nazarathpet,Chennai 600123,Tamilnadu</p>
+
+    </p>
+</div>
+<script>
+    const menu = document.querySelector('.menu')
+    const menuList = document.querySelector('nav ul')
+    menu.addEventListener('click',()=>{
+        menuList.classList.toggle('showmenu')
+    })
+</script>
+</html>
